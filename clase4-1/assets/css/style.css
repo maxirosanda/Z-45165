@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+}
+.tarjeta{
+    width: 200px;
+    height: 330px;
+    background-color: white;
+    border-radius: 10px ;
+    padding: 20px;
+    margin: 10px;
+}
+.tarjeta__titulo {
+    text-align: center;
+}
+.tarjeta__titulo--rojo{
+    color: brown;
+}
+.oferta{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}

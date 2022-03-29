@@ -1,0 +1,14 @@
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 20px 10px 15px 25px;
+    margin: 10px 15px ;
+    border: solid 10px #169c74 ;
+    overflow: auto;
+    
+}
+p{
+    width: 200px;
+    display: none;
+}

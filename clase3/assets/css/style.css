@@ -1,0 +1,47 @@
+
+
+.colorParrafo{
+    color: #700000;
+}
+#subtitulo{
+    color: coral;
+}
+#contenedor {
+    background-color: cornflowerblue;
+}
+.tamañoParrafo{
+    font-size: 44px ;
+}
+.productos{
+    color: chartreuse;
+}
+ul li {
+    color:brown;
+}
+ol li {
+    color: blue;
+}
+
+#parrafo1{
+    color: brown;
+}
+.colorParrafo{
+    color: blue !important;
+    font-size: 32px;
+}
+
+p {
+    color: rgb(103, 167, 39);
+}
+.titulo{
+    color:black;
+    font-size: 64px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+ol{
+    list-style-type: none;
+}

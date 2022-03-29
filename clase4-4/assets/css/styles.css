@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+    font-size: 0;
+}
+li {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    font-size: 14px;
+}
+ul ul {
+    display: none;
+    position: absolute;
+    
+}
+ul ul li {
+    display: inline-block;
+
+}
+
+ul li:hover ul{
+    display: block;
+}
