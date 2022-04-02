@@ -1,0 +1,34 @@
+.hijo{
+    flex-basis: 70px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+    color: white;
+    font-size: 24px;
+}
+.contenedorPadre{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+
+}
+/*
+.hijo1{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.hijo2{
+    flex-grow: 2 ;
+    flex-shrink:10 ;
+}
+.hijo3{
+    flex-grow: 1 ;
+    flex-shrink:1 ;
+}
+.hijo4{
+    flex-grow: 1 ;
+    flex-shrink:1 ;
+}
+*/

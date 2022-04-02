@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    width: 50px;
+    padding: 5;
+}
+.logo img {
+    width: 100%;
+}
+.menu{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    width: 180px;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+ul ul {
+    display: none;
+    background-color: blue;
+}
+
+ul > li:hover ul {
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: 0;
+}
+
+header {
+    background-image: url(../img/paisaje2.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-size: 36px;
+}
+.tarjeta{
+    width: 200px;
+    height: 330px;
+    background-color: white;
+    border-radius: 10px ;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+.tarjeta__titulo {
+    text-align: center;
+}
+.tarjeta__titulo--rojo{
+    color: brown;
+}
+.contenedorTarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer{
+    background-color: blue;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+main{
+    height: 1000px;
+}
