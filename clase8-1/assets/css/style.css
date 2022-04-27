@@ -1,0 +1,52 @@
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to bottom,rgb(151, 18, 18),rgb(30, 30, 211));
+}
+
+.img{
+   transition: all 3s;
+
+}
+
+.img1:hover{
+    transform: translate(10px,15px);
+}
+.img2:hover{
+    transform: rotateZ(360deg);
+}
+
+.img3:hover{
+    transform: rotateX(180deg);
+}
+.img4:hover{
+    transform: rotateY(360deg)
+}
+.img5:hover{
+    transform: scale(1.2);
+}
+.img6:hover{
+    transform: skew(20deg) ;
+}
+.contenido{
+    height: 100px;
+    width: 200px;
+    transition: all 5s;
+}
+
+.contenido:hover{
+    width: 300px;
+    padding: 40px;
+    background-color: aqua;
+    height: 200px;
+    
+}
+
+.nombre{
+    width: 100px;
+    transition: 2s;
+}
+
+.nombre:focus{
+    width: 200px;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 100px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    align-items: end;
+}
+
+.hijo{
+    background-color: aquamarine;
+}
+.hijo1{
+    justify-self: stretch;
+    align-self: stretch;
+}

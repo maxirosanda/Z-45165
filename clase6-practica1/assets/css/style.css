@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 70px 300px auto 100px;
+    grid-template-areas: "nav    nav    nav    nav    nav"
+                         "header header header header header"
+                         "main   main   main   aside  aside "
+                         "footer footer footer footer footer";
+}
+.navegacion{
+    grid-area: nav;
+    background-color: aquamarine;
+}
+.encabezado{
+    grid-area: header;
+    background-color: crimson;
+}
+.principal{
+    grid-area: main;
+    background-color:forestgreen;
+}
+.secundario{
+    grid-area: aside;
+    background-color: hotpink;
+}
+.pie{
+    grid-area: footer;
+    background-color: darkblue;
+}
+

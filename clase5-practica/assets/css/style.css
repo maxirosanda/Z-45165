@@ -7,15 +7,21 @@ a{
     color: white;
 }
 .logo{
-    width: 50px;
+    display: flex;
     padding: 5;
 }
+.logo h3 {
+    font-size: 16px;
+    padding: 5px;
+}
 .logo img {
-    width: 100%;
+    width: 32px;
+    height: 32px;
 }
 .menu{
     background-color: blue;
     color: white;
+    position: fixed;
     width: 100%;
     height: 60px;
     display: flex;
@@ -61,6 +67,7 @@ header {
     text-align: center;
     color:white;
     font-size: 36px;
+    padding-top: 70px;
 }
 .tarjeta{
     width: 200px;
@@ -92,7 +99,4 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-}
-main{
-    height: 1000px;
 }

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px auto auto 100px;
+    grid-template-areas: "nav    nav"
+                         "header header"
+                         "main   main"
+                         "aside  aside"
+                         "footer footer";
+}
+.facebook{
+    font-size: 100px;
+}
+
+.nav{
+    grid-area: nav;
+    background-color: blue;
+}
+.encabezado{
+    grid-area: header;
+    background-color: brown;
+}
+.principal{
+    grid-area: main;
+    background-color: cornflowerblue;
+}
+
+.publicidad{
+    grid-area: aside;
+    background-color: blueviolet;
+}
+
+.pie{
+    grid-area: footer ;
+    background-color: darkorange;
+}
+
+@media (min-width:768px){
+    .contenedor{
+        gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100px 200px auto  100px;
+        grid-template-areas: "nav    nav    nav    nav"
+                             "header header header header"
+                             "main   main   main   aside"
+                             "footer footer footer footer";
+    }
+}
+
+@media (min-width:1024px){
+    .contenedor{
+        gap: 15px;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: 300px auto  100px;
+        grid-template-areas: 
+        "nav    nav    nav    nav    header header header header"
+        "main   main   main   main   main   aside  aside  aside"
+        "footer footer footer footer footer footer footer footer";
+    }
+    .nav{
+        border: 4px solid #000;
+    }
+}

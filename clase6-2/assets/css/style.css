@@ -1,0 +1,43 @@
+.contenedor{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas: "nav header header  header"
+                         "nav publi  publi   aside" 
+                         "nav publi2 publi2  aside"
+                         "pie pie    pie     pie";
+
+    
+}
+
+.navbar{
+    background-color: blue;
+    grid-area: nav;
+
+}
+.encabezado{
+    background-color: fuchsia;
+    grid-area: header;
+}
+.publicaciones{
+    background-color: brown;
+    grid-area: publi;
+}
+.publicidad{
+    background-color: cyan;
+    grid-area: publi2;
+}
+.secundario{
+    background-color: darkorchid;
+    grid-area: aside;
+}
+.pieDePagina {
+    background-color: rgb(141, 133, 19);
+    grid-area: pie;
+}
+h3{
+    color:white;
+    text-align: center;
+
+}

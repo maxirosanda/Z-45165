@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+}
+.topnav{
+    background-color: #333;
+   
+
+}
+.topnav ul {
+    display: flex;
+}
+.topnav li {
+    color: white;
+    list-style: none;
+    padding: 14px 16px;
+}
+
+@media (max-width:600px){
+    .topnav ul {
+        flex-direction: column;
+    }
+}
