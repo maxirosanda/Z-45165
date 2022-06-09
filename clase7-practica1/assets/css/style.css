@@ -25,7 +25,6 @@
     justify-content: space-around;
 }
 .nav ul li {
-    display: inline-block;
     border-right: 3px solid #000;
     padding-right: 5px;
 }
@@ -73,10 +72,10 @@
         width: auto;
         order: 2;
     }
-    .nav__ulUno{
+    .nav ul:nth-child(1){
         order:1;
     }
-    .nav__ulDos{
+    .nav ul:nth-child(2){
         order:3
     }
     .principal{
